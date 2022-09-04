@@ -1,5 +1,5 @@
 import React, {useContext, useState} from 'react';
-import {AlertContext} from '../Context/Alert/alertContext';
+import {AlertContext} from '../Context/alert/alertContext';
 
 const Search = () => {
 	const [value, setValue] = useState('');
