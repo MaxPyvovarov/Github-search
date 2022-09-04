@@ -8,7 +8,7 @@ const AlertState = ({children}) => {
 
 	const hide = () => dispatch({type: HIDE_ALERT});
 
-	const show = (text, type = 'secondary') =>
+	const show = (text, type = 'danger') =>
 		dispatch({
 			type: SHOW_ALERT,
 			payload: {type, text},
